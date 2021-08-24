@@ -27,7 +27,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 # Model saved with Keras model.save()
-MODEL_PATH ='cotton_model_inception.h5'
+MODEL_PATH ='cotton_model_ver2_inception.h5'
 
 # Loading our trained model
 model = load_model(MODEL_PATH)
